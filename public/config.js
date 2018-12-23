@@ -1,0 +1,15 @@
+requirejs.config({
+    baseUrl:'./assets/js',
+    paths:{
+        jquery:'jquery-3.3.1.min',
+        bootstrap:'bootstrap.min',
+        popper:'popper.min',
+        angular:'angular.min',
+        sanitize:'angular-sanitize.min',
+        tv4:'tv4',
+        ObjectPath:'ObjectPath',
+        schemaForm:'schema-form.min',
+        angularRoute:'angular-route.min',
+        bootstrapDecorator:'bootstrap-decorator.min'
+     }
+})

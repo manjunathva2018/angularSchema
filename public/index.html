@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Angular-form-schema</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/angular-csp.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css"/>
+
+
+ <script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
+   <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+   <script type="text/javascript" src="assets/js/angular1.5.min.js"></script>
+  <script type="text/javascript" src="./assets/js/angular-sanitize1.5.min.js"></script>
+    <script type="text/javascript" src="./assets/js/tv4.js"></script>
+    <script type="text/javascript" src="./assets/js/ObjectPath.js"></script>
+    <script type="text/javascript" src="./assets/js/schema-form.min.js"></script>
+ <!-- <script type="text/javascript" src="./assets/js/angular-route.min.js"></script>-->
+  <script type="text/javascript" src="./assets/js/bootstrap-decorator.min.js"></script>
+ 
+</head>
+<body ng-app="sampleSchema">
+  
+    <div ng-controller="formCtrl">
+        {{name}}
+        <form sf-schema="schema" sf-form="form" sf-model="model"></form>
+    </div>
+
+<script type="text/javascript" src="./indexCtrl.js"></script> 
+</body>
+</html>
